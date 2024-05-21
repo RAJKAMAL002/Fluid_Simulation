@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-gradient-text {
+  background: linear-gradient(90deg, #f87516 0%, #5e11ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
